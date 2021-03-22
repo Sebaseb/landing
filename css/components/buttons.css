@@ -1,0 +1,29 @@
+.btn-play{
+  color:#A54BFF;
+  padding: 15px 25px;
+  border-radius: 4px;
+  background: rgba(100,100,100,.1);
+  transition: background 0.3s ease;
+  font-weight: bold;
+  font-size: 70px
+  opacity: 0.6;
+  margin: 20px 20px;
+}
+
+.btn-play:hover{
+  opacity: 1;
+  color:#E13EFF;
+}
+
+.btn-medium{
+  color: white;
+  border: 1px solid white;
+  padding: 5px 5px;
+  border-radius: 50px;
+  font-weight: bolder;
+  opacity: 0.6;
+}
+
+.btn-medium:hover{
+  opacity: 1
+}

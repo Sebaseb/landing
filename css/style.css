@@ -1,0 +1,115 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/*components*/
+@import url("components/buttons.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.banner{
+  background-image: url("https://i.pinimg.com/originals/66/d9/aa/66d9aa938fbb6abe9d4c14c384c3e88f.jpg");
+  background-size: cover;
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+  display: flex;
+/*  padding: 400, 400, 400, 400;*/
+  color: red;
+  justify-content: center;
+  align-items: center;
+  margin: O auto;
+  text-shadow: rgba(30,30,30,0.2);
+  height: 836px;
+  text-align: center;
+}
+
+.banner p{
+  /*padding-bottom: 50px;*/
+  padding-bottom: 285px;
+  font-weight: lighter;
+}
+
+.banner .btn-medium{
+  color: red;
+  border: 8px solid white;
+  font-size: 12px;
+  padding: 5px 5px;
+  border-radius: 50px;
+  font-weight: bolder;
+  opacity: 0.6;
+}
+.cards{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /*background-color: #8F4C5D;*/
+  border-radius:8px;
+  color:#FAFBCF;
+  padding-bottom: 150px;
+
+}
+.card-details {
+ font-weight: : 400;
+  border-radius: 10px;
+  background-color: #8F4C5D;
+  box-shadow: grey;
+  padding: 56px 50px;
+  margin: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+a{
+  color:#FAFBCF ;
+}
+
+.footer {
+  background-color: rgb(220,200,220);
+  text-align: center;
+  margin-bottom: 0px;
+  height:70px;
+  padding:30px;
+}
+
+.fa-seedling{
+font-size: 32px
+}
+
+ul li{
+  display:inline;
+  font-size: 30px;
+  margin:0 auto;
+  padding-right:70px;
+}
+.fa-medium:hover {
+  transform: scale(1.7);
+}
+
+ul li:hover{
+  color: brown;
+  transform: scale(1.05);
+}
+
+.footer p{
+  font-size: 4px
+  display: flex;
+  /*align-items: center;*/
+  justify-content: center;
+
+  /*text-align: center;*/
+
+}
